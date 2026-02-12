@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - backend/2.1 - anotações/99 - extras.md",
+                "file": "1 - frontend/1.1 - anotações/1 - Inicialização e tags.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "99 - extras"
+              "title": "1 - Inicialização e tags"
             }
           }
         ]
@@ -183,7 +183,10 @@
   "active": "7fbbac83cf2cad8d",
   "lastOpenFiles": [
     "1 - frontend/1.1 - anotações/99 - Frameworks.md",
+    "1 - frontend/1.1 - anotações/1 - Inicialização e tags.md",
     "2 - backend/2.1 - anotações/99 - extras.md",
+    "1 - frontend/1.2 - codigos/projeto_1/style.css",
+    "1 - frontend/1.2 - codigos/projeto_1/index.html",
     "2 - backend/2.1 - anotações",
     "1 - frontend/1.1 - anotações",
     "2 - backend/2.0 - codigos",
