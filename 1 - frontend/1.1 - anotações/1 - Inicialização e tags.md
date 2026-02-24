@@ -42,9 +42,54 @@
 	- sup: faz o texto ficar menor e acima tipo para escrever 8m<sup>2</sup> (precisa abrir e fechar)
 	
 	- hr: cria uma linha percorrendo toda a horizontal da página no trecho onde ela foi colocada
+	
+	- a: para referenciar links internos do site, no mesmo projeto podendo ser na mesma página ou não. entre a abertura e fechamento coloca-se o texto que deve aparecer para clicar
+	
+		- dentro do "a" usa-se obrigatoriamente o "href=" seguido do link que se deseja referenciar
+		
+		- target="_black": força a nova página carregada a abrir em uma nova guia
+	
+	- <!-- [texto que você quiser]-->: ser para comentar itens dentro do código html
 
 
 
+## Listas em HTML
+
+- a criação de listas em HTML podem funcionar de 2 formas: listas ordenadas e listas não ordenadas
+
+- é possível colocar uma lista dentro de outra para ter uma lista aninhada, tendo por exemplo item a, b e c dentro do item 1
+
+### listas ordenadas
+
+- para criar uma lista ordenada precisa usar a tag "ol" que precisa de fechamento e dentro dela cada item da lista tem que ter a tag "li" que também precisa tem fechamento
+
+- alguns dos parâmetros que d´para colocar dentro  de ol são:
+
+	- type="": pode ser:
+		- A: para cada item é precedido por uma letra maiúscula em ordem crescente
+		- a: para cada item é precedido por uma letra minúscula em ordem crescente
+		- i: para cada item é precedido por um número romano minúsculo
+		- I: para cada item é precedido por um número romano maiúsculo
+		- 1: para cada item é precedido por um número inteiro em ordem (esse é o type padrão caso não escolha nenhum tipo)
+
+	- start="valor que vai iniciar a contagem dos itens da lista ordenada"
+
+
+### listas não ordenadas
+
+- são as listas que cada item é precedido por um símbolo como o ponto presente no markdown do obsidian. 
+
+- a lista não ordenada usa o "ul" como tag para indicar a lista e "li" para cada item da lista
+
+- alguns dos parâmetros presentes nesse caso são:
+
+	- type="tipo de símbolo presente na lista". Os tipos de símbolo são:
+
+		- disc: esfera preenchida
+
+		- circle: esfera somente com a borda
+
+		- square: quadrado preenchido
 ## Uso de imagens
 
 - é preciso se atentar quanto ao uso de imagens com direitos autorais, para contornar é possível usar imagens com licença criativa presente no google, onde, neste caso é preciso dar créditos aos criadores das imagens
@@ -74,3 +119,11 @@
 	- webp (mais leve de todos)
 	
 	- svg
+
+## CSS
+
+- para estilizar algo deve-se colocar ou o id, ou o nome ou o tipo da estrutura como h2 seguindo de chaves {onde dentro deve conter como o objeto deve ser estilizado}
+
+- para realizar o processo de realizar a separação de uma estrutura pode-se usar os margin-(botton,up,left,right) para separar dependendo do lado escolhido com a unidade de medida desejada, ex: px (pixels), rem (16px), etc
+
+- 
