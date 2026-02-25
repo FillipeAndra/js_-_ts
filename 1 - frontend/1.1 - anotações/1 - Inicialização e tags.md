@@ -43,16 +43,31 @@
 	
 	- hr: cria uma linha percorrendo toda a horizontal da página no trecho onde ela foi colocada
 	
-	- a: para referenciar links internos do site, no mesmo projeto podendo ser na mesma página ou não. entre a abertura e fechamento coloca-se o texto que deve aparecer para clicar
+	- a: para referenciar links externos ao site. entre a abertura e fechamento coloca-se o texto que deve aparecer para clicar
 	
 		- dentro do "a" usa-se obrigatoriamente o "href=" seguido do link que se deseja referenciar
 		
-		- target="_black": força a nova página carregada a abrir em uma nova guia
+		- target="_blank": força a nova página carregada a abrir em uma nova guia
+		
+		- rel: serve apra indicar a relação do link, se externo(external) (em caso de interno {quando a página linkada é do mesmo projeto} não precisa disso)
 	
 	- <!-- [texto que você quiser]-->: ser para comentar itens dentro do código html
 
+	- form: cria um formulário (abre e fecha)
+	
+		- input: campo de entrada de dados em um formulário
+		
 
+	- button: cria um botão clicável
+## Tabelas
 
+- para cria uma tabela, usa-se a tag: table (que abre e fecha)
+
+- dentro da tabela usa-se a seguinte tag para criar uma linha: tr (que abre e fecha)
+
+- dentro da tabela usa-se a seguinte tag para criar uma celula: td (que abre e fecha)
+
+- 
 ## Listas em HTML
 
 - a criação de listas em HTML podem funcionar de 2 formas: listas ordenadas e listas não ordenadas
