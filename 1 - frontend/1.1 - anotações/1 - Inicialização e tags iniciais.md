@@ -38,6 +38,12 @@
 		- src="": valor para colocar o endereço da imagem na pasta
 		
 		- alt="": o placeholder que deve colocar caso dê errado o carregamento da imagem
+
+	- figure: tag utilizada para colocar uma imagem e uma legenda atrelada à ela. antes do fechamento da tag deve conter
+
+		-  uma tag "img" com a imagem
+		
+		- uma tag "figcaption" que antes do seu fechamento deve ser colocada a legenda
 	
 	- sup: faz o texto ficar menor e acima tipo para escrever 8m<sup>2</sup> (precisa abrir e fechar)
 	
@@ -58,7 +64,11 @@
 		- input: campo de entrada de dados em um formulário
 		
 
-	- button: cria um botão clicável
+	- button: cria um botão clicavel
+
+	- div: gera divisões genéricas para realizar manipulações de estilização (só usar caso não consiga sem) 
+	
+	- span: tag utilizada ao redor de um trecho de um texto para estilizar esse trecho de maneira diferente da outra parte (usado apenas para diferenciar esse texto no css)
 ## Tabelas
 
 - para cria uma tabela, usa-se a tag: table (que abre e fecha)
@@ -66,8 +76,6 @@
 - dentro da tabela usa-se a seguinte tag para criar uma linha: tr (que abre e fecha)
 
 - dentro da tabela usa-se a seguinte tag para criar uma celula: td (que abre e fecha)
-
-- 
 ## Listas em HTML
 
 - a criação de listas em HTML podem funcionar de 2 formas: listas ordenadas e listas não ordenadas
@@ -140,5 +148,3 @@
 - para estilizar algo deve-se colocar ou o id, ou o nome ou o tipo da estrutura como h2 seguindo de chaves {onde dentro deve conter como o objeto deve ser estilizado}
 
 - para realizar o processo de realizar a separação de uma estrutura pode-se usar os margin-(botton,up,left,right) para separar dependendo do lado escolhido com a unidade de medida desejada, ex: px (pixels), rem (16px), etc
-
-- 

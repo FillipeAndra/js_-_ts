@@ -1,0 +1,18 @@
+.lista_cabeca{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    
+}
+
+
+.secao_duna{
+    img{
+        width:640px;
+    }
+}
+
+.contatos{
+    list-style-type: none;
+}
