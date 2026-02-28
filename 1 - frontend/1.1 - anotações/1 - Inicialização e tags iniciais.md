@@ -11,8 +11,13 @@
 
 		- escreva dentro do html: lang = "pt-BR" para ser em português
 	
-		- em stylesheet coloque o endereço do arquivo cs na tag src
-		
+		- em stylesheet coloque o endereço do arquivo css na tag link com o hrel (relacionamento)=""
+		sylesheet
+
+		- para adicionar um ícone que fica adicionado no topo do navegador é preciso adicionar um "link" no head com a rel="icon" e o href com o endereço do ícone a ser utilizado (por boas práticas a imagem do ícone fica no mesmo diretório do index.html)
+	
+			- logo em seguida de adicionar o href, coloque do lado o 'type="image/{png;jpeg;svg+xml}"' para inciar ao navegador qual o tipo de imagem é o ícone
+
 		- no campo de title escreva o título da página html
 
 		- a head é onde fica as informações necessárias para o navegador realizar o processo de renderização da página
@@ -69,6 +74,8 @@
 	- div: gera divisões genéricas para realizar manipulações de estilização (só usar caso não consiga sem) 
 	
 	- span: tag utilizada ao redor de um trecho de um texto para estilizar esse trecho de maneira diferente da outra parte (usado apenas para diferenciar esse texto no css)
+
+	- dentro de cada tag é possível colocar class="{nome da sua escolha}", para permitir invocar esse elemento através do nome escolhido, seja no js ou no css
 ## Tabelas
 
 - para cria uma tabela, usa-se a tag: table (que abre e fecha)
