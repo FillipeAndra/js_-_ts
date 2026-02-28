@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de arquivos"
+              "title": "Files"
             }
           },
           {
@@ -171,28 +171,30 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir a troca rápida": false,
-      "graph:Abrir visualização em gráfico": false,
-      "canvas:Criar novo canvas": false,
-      "daily-notes:Abrir a nota de hoje": false,
-      "templates:Inserir modelo": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "bases:Criar nova base": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
     }
   },
   "active": "7fbbac83cf2cad8d",
   "lastOpenFiles": [
+    "1 - frontend/1.1 - anotações/3 - estilização (css).md",
+    "1 - frontend/1.2 - codigos/3_techboard/icon_black.svg",
+    "1 - frontend/1.2 - codigos/3_techboard/icon_white.svg",
+    "1 - frontend/1.2 - codigos/3_techboard/imagens/buttom_light.png",
+    "1 - frontend/1.2 - codigos/3_techboard/imagens/buttom_dark.png",
+    "1 - frontend/1.1 - anotações/1 - Inicialização e tags iniciais.md",
+    "1 - frontend/1.1 - anotações/2 - Estruturação do site.md",
     "1 - frontend/1.2 - codigos/3_techboard/imagens/icon_black.svg",
     "1 - frontend/1.2 - codigos/3_techboard/imagens/Favicon2.svg",
     "1 - frontend/1.2 - codigos/3_techboard/imagens/celular_versao_celular.png",
     "1 - frontend/1.2 - codigos/3_techboard/imagens/logo_white.png",
     "1 - frontend/1.2 - codigos/3_techboard/imagens/logo_black.png",
     "1 - frontend/1.2 - codigos/3_techboard/imagens/icon_black.png",
-    "1 - frontend/1.2 - codigos/3_techboard/imagens/icon_white.svg",
-    "1 - frontend/1.2 - codigos/3_techboard/imagens/Favicon1.svg",
-    "1 - frontend/1.2 - codigos/3_techboard/imagens/Logo_branca.png",
-    "1 - frontend/1.2 - codigos/3_techboard/imagens/celular_versao_pc.png",
-    "1 - frontend/1.2 - codigos/3_techboard/imagens/Logo.png",
     "1 - frontend/1.2 - codigos/3_techboard/style.css",
     "1 - frontend/1.2 - codigos/3_techboard/index.html",
     "1 - frontend/1.2 - codigos/3_techboard/indez.html",
@@ -203,8 +205,6 @@
     "1 - frontend/1.2 - codigos/2_estrutura/index.html",
     "1 - frontend/1.2 - codigos/2_estrutura/imagens",
     "1 - frontend/1.2 - codigos/2_estrutura",
-    "1 - frontend/1.1 - anotações/2 - Estruturação do site.md",
-    "1 - frontend/1.1 - anotações/1 - Inicialização e tags iniciais.md",
     "1 - frontend/1.1 - anotações/99 - Frameworks.md",
     "2 - backend/2.1 - anotações/99 - extras.md"
   ]
