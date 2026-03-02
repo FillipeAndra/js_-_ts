@@ -71,6 +71,8 @@
 
 	- button: cria um botão clicavel
 
+		- se o botão precisar linkar com outro lugar ou outra posição do site, é melhor usar a tag "a" e usar o css para fazer parecer um botão. 
+
 	- div: gera divisões genéricas para realizar manipulações de estilização (só usar caso não consiga sem) 
 	
 	- span: tag utilizada ao redor de um trecho de um texto para estilizar esse trecho de maneira diferente da outra parte (usado apenas para diferenciar esse texto no css)

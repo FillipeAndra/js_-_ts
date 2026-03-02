@@ -11,7 +11,7 @@
 
 - vale ressaltar que o html em cada navegador já vem com certos pré-sets de margin, padding e outros elementos. Então é importante depois de montar o html, verificar o que foi colocado automaticamente de estilização para fazer o seguinte no topo do arquivo css.
 
-	- reset do css:
+	- EX de reset do css:
 
 		<!-- 
 		
@@ -29,6 +29,19 @@
 		
 		-->
 
+- o processo de criação de reset css pode ser feito para todos os elementos como visto anteriormente ou pode ser feito individualmente tag à tag como no exemplo à seguir:
+
+
+	<!--
+	
+		h1, h4, button, forms, img, a{
+		
+				margin: 0;
+				padding: 0;
+				border: 0;
+		}
+	
+		-->
 
 - para conseguir editar as propriedades de um container ou elemento quando o mouse fica sobre ele, basta adicionar ":hover" depois do nome da classe ou da tag.
 
@@ -41,15 +54,8 @@
 				cursor:pointer;
 			
 			}
-	- 
-	- 
-	- 
-	- 
-	- 
-	- 
-	- 
-	- 
-	- -->
+	
+	-->
 
 	- caso o elemento, classe ou container já tenha sido definido anteriormente, suas propriedades ainda persistem no seu ":hover", apenas precisando adicionar seu diferencial, seja a forma como o cursor se comporta, a cor de fundo que muda, etc.
 ## comandos:
@@ -106,12 +112,32 @@
 
 	- para importar uma fonte é recomendado que vá no google fonts e importe a fonte escolhida pela parte de web link imports e coloque o código na head do seu html
 	
-	- depois é preciso adicionar o seguinte no topo do seu arquivo css: @import url('https://fonts.googleapis.com');
-	
 	- então é só invocar a fonte importada usando o comando font family dentro do container desejado
+
+	- outra forma é baixando os arquivos e colocando no projeto linkando no arquivo css do projeto.
+
+		- <!--
+			- @font-face{
+				font-family: "Nome que deseja chamar a font family";
+				 src: url("diretório do arquivo da fonte") format("formato da fonte {o que vem depois do ponto, como se fosse o tipo do arquivo, seria como escrever png}")
+			- }
+		--> 
 	
-	- o font-family também pode ser usando para escolher fontes que já estão presentes nele como o arial e o times new roman
+	- o font-family também pode ser usando para escolher famílias de fontes que já estão presentes nele como: fantasy, sans-serif, serif, monospace ou cursive.
+
+- font-weight: server para indicar o peso da fonte, desde lighter que é a mais fina ou bolder que é a mais grossa. 
+
+	- É possível também trabalhar numericamente baseado nos valores presentes na documentação da fonte onde por exemplo o valor de 100 é o lighter no Poppins
+
+- font-style: determina o estile da fonte, se ela é normal, itálico ou outro
+
+- text-decoration: adiciona ou tira decorações no texto, como sublinhado, linha cortando o texto, entre outros.
 
 - cursor: escolhe a forma como o cursor vai se comportar ao passar sobre o elemento (geralmente associado a um ":hover".
 
 	- pointer: essa característica do cursor permite que o mouse apareça com o ícone de clicável quando está passando sobre o elemento. 
+
+
+- box-sizing: se refere ao tamanho da caixa que se torna o elemento presente na tag para manipulá-lo, podendo ser do tamanho do elemento à até o tamanho da tela inteira.
+
+	- EX: box-sizing: border-box //a caixa fica do tamanho que a tag ocupa de fato na tela
