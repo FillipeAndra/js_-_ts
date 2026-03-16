@@ -76,7 +76,9 @@
 
 - display: forma em que o objeto ou conjunto de objetos se comporta(m) na tela. EX: 
 	
-	- flex: permite uma maior dinamicidade dos(s) objeto(s) facilitando a criação de um site recursivo
+	- flex: permite uma maior dinamicidade dos(s) objeto(s) facilitando a criação de um site recursivo (todos se tornam block {bloco que ocupa todo o espaço disponível da tela} e a movimentação se torna dinâmica, inclusive quem era inline {elementos que ficam em linha por padrão no html5 e que não podem editar padding, height e width})
+	
+	- block: faz com que os elementos se comportem como um um bloco 
 	
 - flex-direction: como os objetos vão se organizar dentro desse display-flex. EX:
 
@@ -84,21 +86,29 @@
 	
 	- column: objetos em coluna
 
-- align-items: a  forma como os elementos devem estar alinhados na vertical. EX:
+- align-items: a  forma como os elementos devem estar alinhados na vertical (no display flex). EX:
 
 	- center: elementos alinhados ao centro
 	
 	- justify: elementos justificados
 
-- justify-content: como os elementos tem que estar alinhados na horizontal. EX: 
+- line-height: indica onde deve estar a linha na posição vertical dentro do objeto (em modo de display block) 
+
+	- recomenda-se colocar a medida em px do próprio tamanho do objeto para alinha no centro da vertical
+
+- justify-content: como os elementos tem que estar alinhados na horizontal (no display flex). EX: 
 
 	- space-evenly: dividir igualmente o espaço entre os espaços vazios
 
 	- space-around: coloca um espaço igual entre os dois elementos
 
+- text-align: alinha o texto horizontalmente (em modo de display block)
+
+	- serve tanto para textos dentro de objetos como textos diretamente presentes na estrutura como quando um h1 ou um p estão diretamente no main, é possível centralizá-los  com esse comando
+
 - gap: cria espaços entre os elementos de um container. EX: 20px;
 
-- margin: adiciona uma margem na unidade de medida desejada no objeto ou conteiner
+- margin: adiciona uma margem na unidade de medida desejada no objeto ou container
 
 	- -top: margem acima
 
@@ -107,6 +117,10 @@
 	- -left: margem à esquerda
 
 	- -right: margem à direita
+
+	- (sem nada depois): coloca as margens na seguinte ordem: cima, direita, baixo esquerda;
+	
+		- auto: alinha ocupando o máximo de espaço possível (ex: margem da direita auto, sem dizer a margem da esquerda deixa o objeto no centro horizontal) 
 
 - font-family: escolhe a fonte que será utilizada no texto.
 
@@ -119,11 +133,22 @@
 		- <!--
 			- @font-face{
 				font-family: "Nome que deseja chamar a font family";
-				 src: url("diretório do arquivo da fonte") format("formato da fonte {o que vem depois do ponto, como se fosse o tipo do arquivo, seria como escrever png}")
+				 src: url("diretório do arquivo da fonte") 
+				 format("formato da fonte {o que vem depois do ponto, como se fosse o tipo do arquivo, seria como escrever png}");
+				 font-weight: peso desejado para ser o padrão da fonte;
+				 font-style: qual  a forma que a fonte  deve ser carregada por padrão (exemplo, normal ou itálico);
+				 font-display: informa como deve ser a forma que a fonte será exibida (EX: swap: nesse caso quando a fonte não carregar a tempo vai ser exibida uma outra fonte escolhida no objeto e quando ela carregar, volta para a deseja);
+				 
 			- }
 		--> 
 	
 	- o font-family também pode ser usando para escolher famílias de fontes que já estão presentes nele como: fantasy, sans-serif, serif, monospace ou cursive.
+
+	- Para colocar uma fonte como segunda opção caso a primeira não carregue, basta colocar uma segunda font-family em sequência da principal
+	
+		- <!--
+			- font-family: "fantasy", "sans-serif"; 
+		- --> 
 
 - font-weight: server para indicar o peso da fonte, desde lighter que é a mais fina ou bolder que é a mais grossa. 
 
