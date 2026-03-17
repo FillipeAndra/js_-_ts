@@ -1,3 +1,6 @@
+/*tamanho 1920x1080*/
+
+/*reset*/
 *{
     margin: 0;
     padding: 0;
@@ -8,12 +11,25 @@ body{
     background-color: #0E1014; 
 }
 
+
+
 header{
-    button{
+    display: flex;
+    gap: 950.71px;
+    width: auto;
+    margin: 75px 0 0 360px;
+    .logo{
+        height: 34px;
+        width: 209.9px;
+
+    }
+    .botao{
         border:none;
         background-color: transparent;
+        height: 40px;
+        width: 40px;
     }
-    button:hover{
+    .botao:hover{
         cursor: pointer;
     }
 }
@@ -26,7 +42,7 @@ header{
         font-family:"Unbounded", "sans-serif";
         font-size: 64px;
         margin-bottom: 24px;
-        margin-top: 40px;
+        margin-top: 60px;
         font-weight:700;
 
         span{
@@ -37,7 +53,8 @@ header{
     p{
         color: #FFFFFF;
         font-size: 24px;
-        margin-bottom: 40px;
+        width: 792px;
+        margin:0 auto 40px;
         font-weight:400;
  
     }
@@ -53,7 +70,7 @@ header{
         font-size: 24px;
         text-align:center;
         line-height: 66px;
-        margin:  40px auto 40px;
+        margin: 0 auto 40px;
 
     }    
     a:hover{
@@ -63,6 +80,57 @@ header{
         
     img{
         width: 792px;
+        height: 446px;
+        margin: 0 auto 0;
     }
 
+}
+
+
+/*o que deve mudar quando a largura diminuir para 768*/
+@media(max-width: 768px){
+    header{
+        margin: 65px 0 0px 60px;
+        gap: 398.71px;   
+    }
+    
+    .central{
+        h1{
+            margin-top: 72px;
+        }
+        p{
+            width: 648px;
+        }
+        img{
+            width: 659.5px;
+        }
+    }
+    
+}
+
+
+@media(max-width:375px){
+    header{
+        margin: 32px 0 0px 16px;
+        gap: 92.71px;
+    }
+    
+    .central{
+        h1{
+            margin: 60px auto 24px;
+            font-size: 40px;
+            width: 341px;
+        }
+        p{
+            font-size: 20px;
+            width: 341px;
+        }
+        img{
+            width:341px;
+            height:240.61px;
+            background-image: url(../imagens/celular_versao_celular.png);
+
+        }
+    }
+    
 }
