@@ -62,6 +62,12 @@
 
 -  border: muda as propriedades da borda do objeto, como botões.
 
+	- pode ser preenchido da seguinte forma:
+	
+	- none
+	
+	-  cor {espessura em px} foma{como sólido ou traçado}
+
 - backgroud-color: muda a cor do fundo do objeto
 
 - color: muda a cor principal do objeto, ex: em um botão a cor que muda é o texto ou elemento colocado entre a tag de abertura e de fechamento do buttom
@@ -106,7 +112,7 @@
 
 	- serve tanto para textos dentro de objetos como textos diretamente presentes na estrutura como quando um h1 ou um p estão diretamente no main, é possível centralizá-los  com esse comando
 
-- gap: cria espaços entre os elementos de um container. EX: 20px;
+- gap: cria espaços entre os elementos de um container (de display flex). EX: 20px;
 
 - margin: adiciona uma margem na unidade de medida desejada no objeto ou container
 
@@ -166,3 +172,8 @@
 - box-sizing: se refere ao tamanho da caixa que se torna o elemento presente na tag para manipulá-lo, podendo ser do tamanho do elemento à até o tamanho da tela inteira.
 
 	- EX: box-sizing: border-box //a caixa fica do tamanho que a tag ocupa de fato na tela
+
+- @media(max-width:{tamanho onde a partir daí o comportamento de certas propriedades mudam}){
+  }
+
+	- isso é usado para realizar a responsividade do site, precisando alterar apenas as características que deseja que mude  
