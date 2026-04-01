@@ -18,6 +18,7 @@ header{
     gap: 950.71px;
     width: auto;
     margin: 75px 0 0 360px;
+
     .logo{
         height: 34px;
         width: 209.9px;
@@ -125,10 +126,13 @@ header{
             font-size: 20px;
             width: 341px;
         }
+        a{
+            width:251px;
+        }
         img{
             width:341px;
-            height:240.61px;
-            background-image: url(../imagens/celular_versao_celular.png);
+            height:240.61px;   
+            
 
         }
     }
