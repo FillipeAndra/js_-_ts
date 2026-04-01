@@ -68,7 +68,7 @@
 	
 	-  cor {espessura em px} foma{como sólido ou traçado}
 
-- backgroud-color: muda a cor do fundo do objeto
+- background-color: muda a cor do fundo do objeto
 
 - color: muda a cor principal do objeto, ex: em um botão a cor que muda é o texto ou elemento colocado entre a tag de abertura e de fechamento do buttom
 
@@ -176,4 +176,8 @@
 - @media(max-width:{tamanho onde a partir daí o comportamento de certas propriedades mudam}){
   }
 
-	- isso é usado para realizar a responsividade do site, precisando alterar apenas as características que deseja que mude  
+	- isso é usado para realizar a adaptabilidade do site, precisando alterar apenas as características que deseja que mude  
+
+		- adaptabilidade é a condição na qual um site se adapta a variação definida manualmente de tamanho, já responsividade consegue se adaptar de maneira automática aos diversos tamanhos existentes
+
+- background-image: serve para mudar adicionar uma imagem ao fundo
