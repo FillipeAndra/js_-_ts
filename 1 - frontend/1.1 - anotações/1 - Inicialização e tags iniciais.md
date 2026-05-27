@@ -66,12 +66,45 @@
 
 	- form: cria um formulário (abre e fecha)
 	
-		- input: campo de entrada de dados em um formulário
+		- action: vai dentro da primeira tag do form e informa para onde o formulário deve ser enviado
 		
+		- method: vai dentro da primeira tag do form e informa como vai ser a forma de envio dos dados
+		
+			- get: coloca os dados visíveis na url
+			    
+			 -  post: manda os dados através de uma header para outro local sem deixar visível para o usuário
+	
+		- input: campo de entrada de dados em um formulário 
+		
+			- type: vai dentro da tag input e serve para identificar qual a forma de entrada de dados, seja um date, uma checkbox, text, email, etc. 
+			
+				- number: com este tipo é possível colocar o valor mínimo para o número (min="") e o valor máximo (max="")
+				
+				- tel(telefone): usado para telefone. é possível colocar nesse e em outros a especificação do "pattern="" " que serve como um regex, podendo colocar nesse caso por exemplo [0-9] {11} para ter 11 dígitos que só podem ser valores de 0 à 9. 
+				
+				- placeholder: colocado dentro do input para indicar algo. Fica dentro do campo a ser preenchido
+				
+				- file: fica dentro do input e serve para indicar que é para aceitar a entrada de arquivos.
+				
+					- accept="": indica quais tipos de arquivos o input file vai aceitar. EX: image/*: aceita todos os tipos de imagem.
+			
+			- name: vai dentro da tag input e serve para identificar do que se trata o input, sendo obrigatório (por padrão coloque o nome em camel case começando com letra minuscula e em inglês)
+			
+			- required: coloca-se sem nada acompanhando. Usado dentro do input para indicar que esse input é obrigatório
 
-	- button: cria um botão clicavel
+		- label: é o nome exibido na tela associado à um input. Tem abertura e fechamento de tag e entre a abertura e o fechamento vai o que deve estar escrito na label. 
+		
+			- for: vai dentro da label e informa o name do input ao qual a label deve estar associada.
 
-		- se o botão precisar linkar com outro lugar ou outra posição do site, é melhor usar a tag "a" e usar o css para fazer parecer um botão. 
+		- button: cria um botão clicável. tem abertura e fechamento. Entre a abertura e o fechamento é preciso colocar o texto que queira que apareça dentro do botão
+
+			- type: vai dentro do button e indica o que o botão deve fazer ao ser clicado, tendo como exemplo o submit que envia os dados do formulário
+	
+	- fieldset: cria um retângulo ao redor de todos os elementos que então entre a abertura e o fechamento do fieldset. Tem abertura e fechamento. Funciona como uma section onde os elementos vão dentro dele.
+	
+		- legend: cria uma nomenclatura para o fildset que fica interrompendo a linha de contorno superior. Tem abertura e fechamento e entre ele é que vai o que deve ser escrito como legenda
+
+	- se o botão precisar linkar com outro lugar ou outra posição do site, é melhor usar a tag "a" e usar o css para fazer parecer um botão. 
 
 	- div: gera divisões genéricas para realizar manipulações de estilização (só usar caso não consiga sem) 
 	
