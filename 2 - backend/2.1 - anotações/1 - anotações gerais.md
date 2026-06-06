@@ -9,6 +9,8 @@
 
 - arquitetura baseada em eventos e assíncronas
 
+- para executar um código em node, basta digitar node seguido do nome do arquivo que deseja executar e ele executar o código (em um arquivo simples)
+
 #### Arquitetura baseada em eventos
 
 - no contexto de um ambiente NodeJs um evento é um processo de execução de uma atividade geralmente envolvendo elementos externos ao código e que emitem um retorno (callback) quando o evento é finalizado.
