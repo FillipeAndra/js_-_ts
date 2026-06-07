@@ -1,11 +1,21 @@
 const numero1 = 2;
 const numero2 = 5;
-
-const soma = numero1+ numero2;
-
+const numero3 = Number.parseInt('8');
+const numero4 = Number.parseFloat('5.645678');
+const talvezNumber = 'jao';
+const soma = numero1+ numero2+numero3;
+let teste;
+const palavra = 'aaaaa';
+const frase = teste + palavra;
+console.log(numero4);
+console.log(isNaN(talvezNumber));
+console.log(numero4.toFixed(2));
 console.log('a soma dos valores é: '+soma);
 
-numero1 = 7;
+console.log(typeof(teste));
+console.log(frase);
+
+
 
 const mult = numero1 * numero2;
 
