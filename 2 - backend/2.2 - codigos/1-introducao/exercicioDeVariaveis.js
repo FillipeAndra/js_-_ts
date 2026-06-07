@@ -70,7 +70,7 @@ levar um guarda-chuva ou não dependendo do valor da
 variável.*/
 
 const chovendo = true;
-if(chovendo == true){
+if(chovendo === true){
     console.log('leve um guarda chuva pois está chovendo!');
 }else{
     console.log('Não precisa levar um guarda chuva pois não está chovendo!');
