@@ -166,6 +166,20 @@
 - ||: or
 
 
+## Operadores
+
+- += : pode ser usando para incremento de valor em uma variável
+
+- ++ : incrementa 1 em uma variável
+
+- * : multiplicação
+
+- / : divisão
+
+- <!--  *=  --> : multiplica um valor presente variável pelo valor adjascente
+
+- -= : pode ser usando para o decrescimo de valor em uma variável
+
 
 ## Funções
 

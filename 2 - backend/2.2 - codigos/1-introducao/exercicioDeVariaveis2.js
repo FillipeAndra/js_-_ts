@@ -57,7 +57,7 @@ utilize métodos de manipulação de strings, como
 toUpperCase, toLowerCase, slice ou outros, 
 para modificar a string original. 
 Exiba os resultados finais no console.*/
-
+ 
 const frase2 = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit';
 
 console.log(`a frase toda em letras maiúsculas fica: ${frase2.toUpperCase()}`);
