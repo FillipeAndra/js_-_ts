@@ -11,6 +11,10 @@
 
 	- uma let pode começar sem ser inicializada 
 
+	- Devido ao Hoisting do JS toda declaração de uma let ou uma const é colocada como uma das primeiras coisas a serem interpretadas para armazenar um espaço na memória para a variável
+
+		- Mas ela fica como undefined até que a linha onde à ela é atribuída um valor seja interpretada
+
 	- existe a forma usando var, mas ela está deprecated então não use
 	
 	- se você não delimitar o tipo de variável (let ou var), no js ele invoca como um var implícito. 
