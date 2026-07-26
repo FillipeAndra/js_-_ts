@@ -11,10 +11,6 @@
 
 	- uma let pode começar sem ser inicializada 
 
-	- Devido ao Hoisting do JS toda declaração de uma let ou uma const é colocada como uma das primeiras coisas a serem interpretadas para armazenar um espaço na memória para a variável
-
-		- Mas ela fica como undefined até que a linha onde à ela é atribuída um valor seja interpretada
-
 	- existe a forma usando var, mas ela está deprecated então não use
 	
 	- se você não delimitar o tipo de variável (let ou var), no js ele invoca como um var implícito. 
@@ -138,56 +134,29 @@
 
 - segue um site com uma lista de comandos unicode para colocar símbolos caso precise: https://home.unicode.org/
 
-## Condicionais
-
-- no js existem:
-
-	- if(condicional){}
-	
-	- else if(condicional){}
-	
-	- else{}
-### comparações:
-
-- o js aceita tanto == quanto === quando está comparando igualdade
-
-	- é pouco recomendado usar == , pois ele não compara o tipo dos dados, ele tenta converter para que os dados tenham o mesmo tipo, gerando erros como alegar que 5 e '5' são a mesma coisa   
-	
-	- o mais recomendado é usar === , pois ele compara os valores e antes disso compara os tipos. Então seguindo o último exemplo 5 e '5' seria false. 
-	
-	- variavelString.includes('palavra ou frase'): Retorna true ou false após verificar se a variável contem a palavra ou frase buscada (cuidado com o fato de que deve estar exatamente do jeito da busca, pois js é case sensitive) 
-
-- <= :menor igual que
-
-- >= : maior igual que
-
-- > : maior que
-
-- < : menor que
-
-- &&: and
-
-- ||: or
-
 
 ## Operadores
 
 - += : pode ser usando para incremento de valor em uma variável
 
+- -= : pode ser usando para o decréscimo de valor em uma variável
+
+- <!--  *=   -->: pode ser usado para multiplicar o valor original pelo valor desejado
+
+- <!--  /=   -->: pode ser usado para multiplicar o valor original pelo valor desejado
+
 - ++ : incrementa 1 em uma variável
+
+- -- : decrementa -1 em uma variável  
 
 - * : multiplicação
 
+- ** : realiza um cálculo e potência. EX: 2 ** 3 (2 ao cubo)
+
 - / : divisão
+
+- %: retorna o resto de uma divisão
 
 - <!--  *=  --> : multiplica um valor presente variável pelo valor adjascente
 
-- -= : pode ser usando para o decrescimo de valor em uma variável
-
-
-## Funções
-
- - para declarar uma função em js usa-se:
- 
-	 - function nomeDaFuncao (variavelDeEntrada1,...){}
 
