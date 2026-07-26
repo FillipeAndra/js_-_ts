@@ -178,7 +178,11 @@
 
 - * : multiplicação
 
+- ** : realiza um cálculo e potência. 
+
 - / : divisão
+
+- %: retorna o resto de uma divisão
 
 - <!--  *=  --> : multiplica um valor presente variável pelo valor adjascente
 
